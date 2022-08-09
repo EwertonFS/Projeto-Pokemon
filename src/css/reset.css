@@ -1,0 +1,12 @@
+/*reset para dar o reset do navegador ou algum estilo */
+/*vss sempre tem o efeito em cascata*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul {
+  list-style: none;  /*tirsndo sd bolinhsd*/
+}
+

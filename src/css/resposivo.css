@@ -1,0 +1,36 @@
+/*colocar o rseponsivo abaixo so desktop o link no html */
+
+
+@media(max-width:620px){
+    .pokemon-slider{
+     padding:0 15px;
+     gap: 10px;/*espaço entre elementos*/
+    }
+}
+
+.btn-seta{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-pokemons {
+    height:480px;
+
+}
+
+.cartao .imagem-pokemon {
+    max-height: 230px;
+}
+
+.cartao imagem.nome {
+   max-width:50%;
+   font-size:18px; 
+}
+
+.cartao .informacoes .vida{
+    font-size: 14px;
+}

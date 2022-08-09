@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Pokemon</title>
+
+    <link
+      rel="shortcut icon"
+      href="/src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/resposivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="/src/imagens/pokebola.png" alt="pokebola" class="pokebola" />
+      <h1 class="titulo">Mapa dev Weelk</h1>
+    </header>
+
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="/src/imagens/seta.png" alt="seta voltar" />
+      </button>
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Pikachu</h2>
+            <p class="vida">HP 300</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="/src/imagens/pikachu.png"
+              alt="Pikachu"
+              class="imagem-pokemon"
+            />
+          </div>
+          <div class="descricao ">
+            <div class="titulo">Descrição</div>
+            <p class="texto">
+              Ele foi criado como parte da primeira geração dos jogos Pokémon, Pokémon Red e Blue, lançado fora do Japão, sob o título Pokémon Red e Blue. Porém, Pikachu não fez parte do primeiro jogo de Pokémon, no entanto, é, o primeiro Pokémon do tipo elétrico criado, por isso ele serve como um exemplo deste tipo de Pokémon
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">charizard</h2>
+            <p class="vida">HP 800</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="/src/imagens/charizard.png"
+              alt="charizard"
+              class="imagem-pokemon"
+            />
+          </div>
+          <div class="descricao ">
+            <div class="titulo">Descrição</div>
+            <p class="texto">
+              Charizard voa e ataca seus oponentes em área, causando dano e restaurando sua vida. Adicionalmente, ele ignora obstáculos no terreno. Ao ser ativada novamente em um curto período de tempo, Charizard agarra um oponente e o leva para o céu, causando dano na queda..
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Mewtwo</h2>
+            <p class="vida">HP 1200</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="/src/imagens/mewtwo.png"
+              alt="Mewtwo"
+              class="imagem-pokemon"
+            />
+          </div>
+          <div class="descricao ">
+            <div class="titulo">Descrição</div>
+            <p class="texto">
+              Giovanni contratou um cientista chamado Dr. Fuji para clonar Mew e criar o Pokémon mais poderoso da história. Fuji concordou, mas só aceitou a proposta para continuar com sua principal pesquisa: criar um clone de Amber, sua falecida filha. Apenas um mês após a descoberta, Mewtwo foi criado.
+            </p>
+          </div>
+        </li>
+        <li></li>
+      </ul>
+      <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="/src/imagens/seta.png" alt="seta avancar" />
+      </button>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
